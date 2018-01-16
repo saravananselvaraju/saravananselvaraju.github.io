@@ -3,6 +3,7 @@
                 background-image:url("https://saravanan-selvaraju.github.io/images/bars.svg");
 								background-position: right center;
 								background-repeat: no-repeat;
+	content:'';
 								font-size: 20px;
 								display: inline-block;
 								height: 3.75em;
