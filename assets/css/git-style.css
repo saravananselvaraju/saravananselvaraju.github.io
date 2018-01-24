@@ -11,6 +11,14 @@
 	border-radius:10px !important;
 
 }
+
+	@keyframes myfirst /* Safari and Chrome */ {
+		0% {background:#af4309 !important;}
+		25% {background:#5a00af !important;}
+		50% {background:green !important;}
+		75% {background:#FCBC0F !important;}
+		100% {background:purple !important;}
+}
 	@-moz-keyframes myfirst /* Firefox */ {
 	    0% {background:#af4309;}
 			25% {background:#5a00af !important;}
