@@ -7,23 +7,23 @@
 
 }
 .float{
-	width: 120px;
+	width: 120px !important;
 	border-radius:10px !important;
 
 }
 	@-moz-keyframes myfirst /* Firefox */ {
 	    0% {background:#af4309;}
-			25% {background:#5a00af;}
-			50% {background:green;}
-	    75% {background:#FCBC0F;}
-			100% {background:purple;}
+			25% {background:#5a00af !important;}
+			50% {background:green !important;}
+	    75% {background:#FCBC0F !important;}
+			100% {background:purple !important;}
 	}
 
 	@-webkit-keyframes myfirst /* Safari and Chrome */ {
-		0% {background:#af4309;}
-		25% {background:#5a00af;}
-		50% {background:green;}
-		75% {background:#FCBC0F;}
-		100% {background:purple;}
+		0% {background:#af4309 !important;}
+		25% {background:#5a00af !important;}
+		50% {background:green !important;}
+		75% {background:#FCBC0F !important;}
+		100% {background:purple !important;}
 }
 
