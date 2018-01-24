@@ -1,3 +1,29 @@
 #menu .close {
 			background-image: url("https://saravanan-selvaraju.github.io/images/close.svg");
 		}
+.float::after{
+    content: "Agenda";
+
+
+}
+.float{
+	width: 120px;
+	border-radius:10px !important;
+
+}
+	@-moz-keyframes myfirst /* Firefox */ {
+	    0% {background:#af4309;}
+			25% {background:#5a00af;}
+			50% {background:green;}
+	    75% {background:#FCBC0F;}
+			100% {background:purple;}
+	}
+
+	@-webkit-keyframes myfirst /* Safari and Chrome */ {
+		0% {background:#af4309;}
+		25% {background:#5a00af;}
+		50% {background:green;}
+		75% {background:#FCBC0F;}
+		100% {background:purple;}
+}
+
