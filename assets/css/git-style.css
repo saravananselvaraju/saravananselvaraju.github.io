@@ -11,6 +11,12 @@
 	border-radius:10px !important;
 
 }
+.float {
+	    background:red;
+	    animation:myfirst 2s;
+	    -moz-animation:myfirst 2s infinite; /* Firefox */
+	    -webkit-animation:myfirst 2s infinite; /* Safari and Chrome */
+	}
 
 	@keyframes myfirst /* Safari and Chrome */ {
 		0% {background:#af4309 !important;}
