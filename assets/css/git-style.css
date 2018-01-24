@@ -3,7 +3,7 @@
 		}
 #header nav > ul > li > a.menuToggle:after {			content: "" !important;
 								background-image: url("https://saravanan-selvaraju.github.io/images/bars.svg");
-								
+								font-size: 14px !important;
 							}
 
 	.float {
