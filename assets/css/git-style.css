@@ -1,6 +1,17 @@
 #menu .close {
 			background-image: url("https://saravanan-selvaraju.github.io/images/close.svg");
 		}
+#header nav > ul > li > a.menuToggle:after {
+
+								background-position: right center;
+								background-repeat: no-repeat;
+								content: "" !important;
+								background-image: url("https://saravanan-selvaraju.github.io/images/bars.svg");
+								display: inline-block;
+								height: 3.75em;
+								vertical-align: top;
+								width: 2em;
+							}
 
 	.float {
 	    background:red;
