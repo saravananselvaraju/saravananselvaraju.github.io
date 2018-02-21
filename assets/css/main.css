@@ -1,4 +1,4 @@
-@import url("fontawesome-all.min.css");
+@import url("https://use.fontawesome.com/releases/v5.0.6/css/all.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 
@@ -19,7 +19,9 @@
 	body {
 		line-height: 1;
 	}
-
+	a{
+		text-decoration: none !important;
+	}
 	ol, ul {
 		list-style: none;
 	}
@@ -1557,11 +1559,6 @@
 	}
 
 	a {
-		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1795,7 +1792,6 @@
 		.select-wrapper:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -1861,7 +1857,6 @@
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1966,7 +1961,6 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2075,15 +2069,6 @@
 			}
 
 				ul.feature-icons li:before {
-					-moz-osx-font-smoothing: grayscale;
-					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
-					font-style: normal;
-					font-weight: normal;
-					text-transform: none !important;
-				}
-
-				ul.feature-icons li:before {
 					background: #303f9f;
 					border-radius: 100%;
 					color: #ffffff;
@@ -2100,6 +2085,7 @@
 		ul.icons {
 			cursor: default;
 			list-style: none;
+			font-size: 21px;
 			padding-left: 0;
 		}
 
@@ -2818,7 +2804,6 @@
 					#titleBar .toggle:before {
 						-moz-osx-font-smoothing: grayscale;
 						-webkit-font-smoothing: antialiased;
-						font-family: FontAwesome;
 						font-style: normal;
 						font-weight: normal;
 						text-transform: none !important;
@@ -2829,6 +2814,7 @@
 						border-left: 1px solid #303f9f; 
 						color: #303f9f;
 						content: '\f0c9';
+						font-family: 'Font Awesome 5 free';
 						display: block;
 						font-size: 18px;
 						height: 44px;
