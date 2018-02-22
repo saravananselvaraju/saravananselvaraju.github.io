@@ -3040,3 +3040,23 @@
 			}
 
 	}
+	.type {
+		background-image: linear-gradient(
+		  rgba(0, 0, 0, 0.6), 
+		  rgba(0, 0, 0, 0.6)), url("images/banner.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+		background-position:  center;
+		color:#fff;
+		font-size: 28px;
+		color:#fff; 
+		text-decoration: none; 
+		padding-top:32%;
+		padding-bottom:33%;
+		}
+		#titleBar{
+			-webkit-box-shadow: 0 10px 10px -10px #000000;
+			  -moz-box-shadow: 0 10px 10px -10px #000000;
+			box-shadow: 0 3px 3px -3px #000000;
+		}
