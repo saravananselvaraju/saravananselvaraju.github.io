@@ -21,7 +21,6 @@
 </head>
 
 {% if jekyll.environment == 'production' %}
-<!-- change your GA id in _config.yml -->
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -34,32 +33,25 @@ ga('send', 'pageview');
 
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{layout}}">
-	<!-- defer loading of font and font awesome -->
 	<noscript id="deferred-styles">
 		<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	</noscript>
 
 
-<!-- Begin Menu Navigation
-================================================== -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
 
     <div class="container pr-0">
 
-    <!-- Begin Logo -->
     <a class="navbar-brand" href="{{ site.baseurl }}/">
     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
     </a>
-    <!-- End Logo -->
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarMediumish">
-
-        <!-- Begin Menu -->
 
             <ul class="navbar-nav ml-auto">
 
@@ -91,21 +83,15 @@ ga('send', 'pageview');
 
             </ul>
 
-        <!-- End Menu -->
-
     </div>
 
     </div>
 </nav>
-<!-- End Navigation
-================================================== -->
 
 <div class="site-content">
 
 <div class="container">
 
-<!-- Site Title
-================================================== -->
 <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
@@ -113,16 +99,12 @@ ga('send', 'pageview');
     </p>
 </div>
 
-<!-- Content
-================================================== -->
 <div class="main-content">
     {{ content }}
 </div>
     
 </div>
 
-<!-- Begin Footer
-================================================== -->
 <footer class="footer">
     <div class="container">
         <div class="row">
@@ -132,13 +114,8 @@ ga('send', 'pageview');
         </div>
     </div>
 </footer>
-<!-- End Footer
-================================================== -->
 
-</div> <!-- /.site-content -->
-
-<!-- Scripts
-================================================== -->
+</div> 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 
