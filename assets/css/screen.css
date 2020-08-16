@@ -365,6 +365,7 @@ blockquote {
 .share ul li {
     display: inline-block;
     margin-bottom: 9px;
+    font-size: 1.5rem;
 }
 
 .share ul {

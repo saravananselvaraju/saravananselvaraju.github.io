@@ -6,7 +6,6 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
 google_analytics: 'UA-112928594-5'
-telegram_site_id: 'DoedM_LH'
 include: ["_pages"]
 permalink: /:title/
 
