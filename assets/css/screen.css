@@ -1,8 +1,5 @@
-/* 
-Template Name: Mediumish 
-Copyright: Sal, WowThemes.net, https://www.wowthemes.net 
-License: https://www.wowthemes.net/freebies-license/ 
-*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 @media screen and (min-width:1500px) {
     html { font-size:18px; } /* Increase the font size on higher resolutions */
     .container {max-width:80%;}
@@ -14,6 +11,16 @@ License: https://www.wowthemes.net/freebies-license/
 a {
     color: #00ab6b;
     transition: all 0.2s;
+}
+
+.modal-body ul{
+    padding: 0px;
+}
+
+.lunrsearchresult{
+    list-style: none;
+    margin-bottom: 12px;
+
 }
 
 a:hover {
@@ -278,8 +285,21 @@ span.post-read-more a:hover {
     color: green;
 }
 
+.fa-whatsapp{
+    color: #4AC959 !important;
+}
+
+.fa-twitter{
+    color: #1da1f2 !important;
+}
+
+.fa-facebook{
+    color: #3b5998 !important;
+}
 .mediumnavigation .navbar-brand {
     font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    font-size: large;
 }
 
 .mediumnavigation .dropdown-menu {
@@ -844,7 +864,6 @@ iframe {
         margin-top: 30px;
     }
     .nav-item{
-        padding: 0.5rem;
         justify-items: center;
     }
 }
